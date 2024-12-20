@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Hub - Все нейросети в одном месте</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>🌟 AI Hub</h1>
+        <p>Добро пожаловать в хаб нейросетей! Найдите все лучшие инструменты в одном месте.</p>
+        <nav>
+            <input type="text" id="searchBar" placeholder="🔍 Искать нейросеть..." onkeyup="searchNetworks()">
+        </nav>
+    </header>
+    <main>
+        <section id="text-tools">
+            <h2>✍️ Текстовые нейросети</h2>
+            <div class="card" data-category="text">
+                <h3>ChatGPT</h3>
+                <p>Нейросеть для генерации текстов и общения.</p>
+                <a href="https://chat.openai.com/" target="_blank">Перейти</a>
+            </div>
+            <div class="card" data-category="text">
+                <h3>Jasper AI</h3>
+                <p>Копирайтинг и создание контента.</p>
+                <a href="https://www.jasper.ai/" target="_blank">Перейти</a>
+            </div>
+        </section>
+
+        <section id="image-tools">
+            <h2>🖼️ Нейросети для изображений</h2>
+            <div class="card" data-category="image">
+                <h3>DALL·E</h3>
+                <p>Генерация изображений из текста.</p>
+                <a href="https://openai.com/dall-e" target="_blank">Перейти</a>
+            </div>
+        </section>
+
+        <section id="video-tools">
+            <h2>🎥 Нейросети для видео</h2>
+            <div class="card" data-category="video">
+                <h3>Runway</h3>
+                <p>Видеообработка и генерация эффектов.</p>
+                <a href="https://runwayml.com/" target="_blank">Перейти</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 AI Hub. Все права защищены.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
